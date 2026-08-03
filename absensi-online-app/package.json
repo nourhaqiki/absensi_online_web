@@ -1,0 +1,31 @@
+{
+  "name": "absensi-online-app",
+  "version": "1.0.0",
+  "description": "A simple online attendance application",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.3",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.8"
+  },
+  "keywords": [
+    "attendance",
+    "online",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
