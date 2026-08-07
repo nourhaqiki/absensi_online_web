@@ -75,3 +75,10 @@
                         <td>
                             <a href="{{ route('admin.attendance.detail', $log) }}" class="btn btn-sm btn-outline-primary rounded-3">Detail</a>
                         </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+</div>
+@endsection
